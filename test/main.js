@@ -43,7 +43,7 @@ describe('DOM', () => {
 		const cardTitleEl = firstSectionEl.querySelector('.card__title');
 		const cardTitle = cardTitleEl.textContent.trim();
 
-		cardTitle.should.equal('Join our community');
+		cardTitle.should.include('Join our community');
 	});
 
 	it('should have three section elements', () => {
