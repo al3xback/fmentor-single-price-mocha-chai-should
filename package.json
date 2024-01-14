@@ -1,7 +1,7 @@
 {
 	"name": "fmentor-single-price-mocha-chai-should",
 	"version": "1.0.0",
-	"description": "single price grid component using mocha and chai testing with should style",
+	"description": "single price grid component using mocha and chai with should style",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
