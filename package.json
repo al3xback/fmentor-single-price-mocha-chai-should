@@ -1,9 +1,10 @@
 {
 	"name": "fmentor-single-price-mocha-chai-should",
+	"private": true,
 	"version": "1.0.0",
-	"description": "single price grid component using mocha and chai with should style",
-	"main": "index.js",
 	"type": "module",
+	"author": "alex <al3xback@gmail.com>",
+	"license": "ISC",
 	"scripts": {
 		"sass-dev": "sass --watch scss/main.scss css/main.css",
 		"sass-prod": "sass scss/main.scss css/main.css --style=compressed --no-source-map",
@@ -14,16 +15,6 @@
 		"test": "mocha",
 		"build": "run-s lint sass-prod postcss"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/al3xback/fmentor-single-price-mocha-chai-should.git"
-	},
-	"author": "alex <al3xback@gmail.com>",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/al3xback/fmentor-single-price-mocha-chai-should/issues"
-	},
-	"homepage": "https://github.com/al3xback/fmentor-single-price-mocha-chai-should#readme",
 	"devDependencies": {
 		"autoprefixer": "^10.4.16",
 		"chai": "^5.0.0",
